@@ -1,12 +1,34 @@
+import PropTypes from 'prop-types'
+import { useEffect } from "react";
+import { useState } from "react";
+import Course from "../Course/Course";
 
 
-const Courses = () => {
+const Courses = ({handleAddToCart}) => {
+    const [courses, setCourses] = useState([])
+
+    useEffect(() => {
+        fetch('courses.json')
+        .then(res => res.json())
+        .then(data => setCourses(data))
+    }, [])
+    
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full md:w-2/3 lg:w-3/4">
-            <h2 className="text-4xl">Courses</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full md:w-2/3 lg:w-3/4">
+            {
+                courses.map(course => <Course
+                key={course.id}
+                course={course}
+                handleAddToCart={handleAddToCart}
+                ></Course>)
+            }
             
         </div>
     );
 };
+
+Courses.propTypes = {
+    handleAddToCart: PropTypes.func
+}
 
 export default Courses;

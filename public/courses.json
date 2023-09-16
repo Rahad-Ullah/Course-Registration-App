@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/5k0rpYn/Rectangle-2-2.png",
+      "title": "Introduction to Programming",
+      "description": "Dive into the world of programming and build a strong foundation in computer science.",
+      "price": 199,
+      "credit": 3
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/ChN5BvJ/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "description": "Master essential data structures and algorithms, critical for computer science and software development.",
+      "price": 299,
+      "credit": 1
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/YtyLjPn/Rectangle-2-4.png",
+      "title": "Introduction to Data Structure",
+      "description": "Begin your journey in web development with Data Structure the core technologies of the web.",
+      "price": 249,
+      "credit": 3
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/NVhsWkP/Rectangle-3.png",
+      "title": "Advanced Data Structure",
+      "description": "Explore the exciting field of Data Structure and its diverse applications across industries.",
+      "price": 349,
+      "credit": 2
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/Ry3YLZN/Rectangle-2.png",
+      "title": "Introduction to Python",
+      "description": "Learn the art of programming with python to empower your software applications.",
+      "price": 279,
+      "credit": 3
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/4FS273z/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "description": "Understand software engineering principles and best practices for effective software development.",
+      "price": 329,
+      "credit": 4
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/5cTv6Fv/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "description": "Understand Cloud Computing principles and best practices for effective software development.",
+      "price": 299,
+      "credit": 2
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/CM3sg75/Rectangle-2-1.png",
+      "title": "Introduction to Database",
+      "description": "Study the core concepts of Database and their crucial role in computing.",
+      "price": 349,
+      "credit": 1
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/KjbY4FH/Rectangle-2-6.png",
+      "title": "Competitive Programming",
+      "description": "Study the core concepts of Competitive Programming and their crucial role in computing.",
+      "price": 269,
+      "credit": 3
+    }
+]
