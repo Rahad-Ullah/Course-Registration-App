@@ -1,5 +1,8 @@
 
 import { useState } from 'react'
+// Importing toastify module
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import Cart from './Components/Cart/Cart'
 import Courses from './Components/Courses/Courses'
@@ -13,11 +16,11 @@ function App() {
   const handleAddToCart = (product, credit, price) =>{
     const newCredits = credits + credit;
     if(products.includes(product)){
-      alert('⚠ You have already added this course ‼')
+      toast.warning("You have already added this course !!");
       return
     }
     if (newCredits > 20){
-      alert('Sorry ☹ You have no enough available credit to parchase 😥')
+      toast.warning('Sorry 😥 You have not enough available credit to parchase !!')
       return;
     }
     const newProducts = [...products, product]
@@ -29,13 +32,14 @@ function App() {
   return (
     <>
         <Header></Header>
-        <main className='flex flex-col md:flex-row justify-between gap-6'>
+        <main className='flex flex-col md:flex-row justify-between gap-5'>
           <Courses handleAddToCart={handleAddToCart}></Courses>
           <Cart 
             products={products} 
             credits={credits}
             totalPrice={totalPrice}
           ></Cart>
+          <ToastContainer />
         </main>
     </>
   )

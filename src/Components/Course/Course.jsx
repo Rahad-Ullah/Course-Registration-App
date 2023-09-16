@@ -20,7 +20,8 @@ const Course = ({course, handleAddToCart}) => {
                     <span className='text-[#1C1B1B99] font-medium'>Credit : {credit}hr</span>
                 </p>
             </div>
-        <button onClick={() => handleAddToCart(course, credit, price)} className='p-2 bg-[#2F80ED] text-white text-lg font-semibold w-full rounded-lg hover:bg-[#1c6cd5]'>Select</button>
+            <button onClick={() => handleAddToCart(course, credit, price)} className='p-2 bg-[#2F80ED] text-white text-lg font-semibold w-full rounded-lg hover:bg-[#1c6cd5]'>Select</button>
+            
         </div>
     );
 };
