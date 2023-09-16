@@ -13,7 +13,7 @@
       "title": "Introduction to Algorithms",
       "description": "Master essential data structures and algorithms, critical for computer science and software development.",
       "price": 299,
-      "credit": 1
+      "credit": 5
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "title": "Introduction to Data Structure",
       "description": "Begin your journey in web development with Data Structure the core technologies of the web.",
       "price": 249,
-      "credit": 3
+      "credit": 10
     },
     {
       "id": 4,
