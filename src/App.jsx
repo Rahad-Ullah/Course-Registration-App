@@ -12,7 +12,14 @@ function App() {
 
   const handleAddToCart = (product, credit, price) =>{
     const newCredits = credits + credit;
-    
+    if(products.includes(product)){
+      alert('⚠ You have already added this course ‼')
+      return
+    }
+    if (newCredits > 20){
+      alert('Sorry ☹ You have no enough available credit to parchase 😥')
+      return;
+    }
     const newProducts = [...products, product]
     setProducts(newProducts)
     setCredits(newCredits)
