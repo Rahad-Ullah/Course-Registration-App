@@ -1,8 +1,10 @@
-# React + Vite
+# Course Registration React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+* Dynamic Data Loading and Display in the UI.
+* Automatic Cart Data Calculation and Validation.
+* Real-Time Notifications and Excellent User Experience.
 
-Currently, two official plugins are available:
+## How I managed the state in my assignment project
+In my React assignment project as a beginner developer, I primarily managed state using React's built-in useState hook. It allowed me to maintain and update component-specific state within functional components. I found this approach straightforward and effective for handling local state, such as form input values, toggles, and counters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

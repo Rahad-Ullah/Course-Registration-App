@@ -7,7 +7,7 @@ const Course = ({course, handleAddToCart}) => {
     const {title, image, description, price, credit} = course;
     return (
         <div className='space-y-3 p-4 bg-white rounded-lg'>
-            <img src={image} alt="" />
+            <img src={image} alt="" className='w-full'/>
             <h2 className='text-lg font-semibold'>{title}</h2>
             <p className='text-[#1C1B1B99]'>{description}</p>
             <div className='flex gap-4'>

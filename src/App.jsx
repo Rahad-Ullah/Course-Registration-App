@@ -32,7 +32,7 @@ function App() {
   return (
     <>
         <Header></Header>
-        <main className='flex flex-col md:flex-row justify-between gap-5'>
+        <main className='flex flex-col lg:flex-row justify-between gap-5'>
           <Courses handleAddToCart={handleAddToCart}></Courses>
           <Cart 
             products={products} 
